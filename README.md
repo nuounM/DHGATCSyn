@@ -1,6 +1,6 @@
-# HypergraphSynergy
-This repository contains the code and data for "Multi-way relation-enhanced hypergraph representation learning for anti-cancer drug synergy prediction"
-![Framework of HypergraphSynergy](https://github.com/scz760904126/HypergraphSynergy/blob/main/Overview.png)
+# DHGATCSyn
+This repository contains the code and data for "DHGATCSyn"
+![Framework of DHGATCSyn](https://github.com/scz760904126/HypergraphSynergy/blob/main/Overview.png)
 
 # Requirements
 * python 3.7
@@ -14,9 +14,9 @@ This repository contains the code and data for "Multi-way relation-enhanced hype
 
 # Usage
 ```sh
-  cd Model/HypergraphSynergy
+  cd Model/DHGATCSyn
   # for classification experiment
-  python main.py
+  python main.py --dataset 'ALMANAC(or ONEIL)' --task 'cls' --epoch 2000
   # for regression experiment
-  python main_reg.py
+  python main.py --dataset 'ALMANAC( or ONEIL)' --task 'reg' --epochs 2000
 ```
