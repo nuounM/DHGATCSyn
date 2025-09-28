@@ -1,6 +1,5 @@
 # DHGATCSyn
 This repository contains the code and data for "DHGATCSyn"
-![Framework of DHGATCSyn](https://github.com/scz760904126/HypergraphSynergy/blob/main/Overview.png)
 
 # Requirements
 * python 3.7
